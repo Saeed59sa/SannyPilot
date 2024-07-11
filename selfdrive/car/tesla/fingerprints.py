@@ -4,7 +4,7 @@ from openpilot.selfdrive.car.tesla.values import CAR
 Ecu = car.CarParams.Ecu
 
 FW_VERSIONS = {
-  CAR.TESLA_AP2_MODELS: {
+  CAR.TESLA_MODELS_RAVEN: {
     (Ecu.adas, 0x649, None): [
       b'\x01\x00\x8b\x07\x01\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x11',
     ],
@@ -18,7 +18,7 @@ FW_VERSIONS = {
       b'\x10#\x01',
     ],
   },
-  CAR.TESLA_MODELS_RAVEN: {
+  CAR.TESLA_AP2_MODELS: {
     (Ecu.electricBrakeBooster, 0x64d, None): [
       b'1037123-00-A',
     ],
